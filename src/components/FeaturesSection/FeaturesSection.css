@@ -1,0 +1,211 @@
+.features-section {
+  width: 100%;
+  background-color: #000000;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.features-section__header {
+  background: rgba(26, 26, 26, 0.8);
+  border-radius: 20px;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.features-section__title {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+}
+
+.features-section__title--blue {
+  color: #4c85f5;
+}
+
+.features-section__item {
+  position: relative;
+  background: rgba(26, 26, 26, 0.5);
+  border-radius: 20px;
+  padding: 30px 20px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Audience section */
+.features-section__icons {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.features-section__icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.features-section__icon--purple {
+  background: linear-gradient(135deg, #9b59b6, #e74c3c);
+}
+
+.features-section__icon--green {
+  background: linear-gradient(135deg, #2ecc71, #27ae60);
+}
+
+.features-section__icon--blue {
+  background: linear-gradient(135deg, #3498db, #2980b9);
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.features-section__magnifier {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin: 20px 0;
+}
+
+.features-section__magnifier-circle {
+  width: 100%;
+  height: 100%;
+  border: 6px solid #4c85f5;
+  border-radius: 50%;
+  position: relative;
+}
+
+.features-section__magnifier-circle::after {
+  content: '';
+  position: absolute;
+  bottom: -30px;
+  right: -15px;
+  width: 40px;
+  height: 8px;
+  background: #4c85f5;
+  border-radius: 4px;
+  transform: rotate(45deg);
+}
+
+/* Phone mockup */
+.features-section__phone {
+  width: 200px;
+  height: 400px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 30px;
+  padding: 10px;
+  position: relative;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.features-section__phone--dark {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+}
+
+.features-section__phone-screen {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+}
+
+/* Laptop mockup */
+.features-section__laptop {
+  width: 280px;
+  height: 180px;
+  background: #c0c0c0;
+  border-radius: 8px 8px 0 0;
+  padding: 8px 8px 20px 8px;
+  position: relative;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.features-section__laptop::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 10px;
+  background: #808080;
+  border-radius: 0 0 4px 4px;
+}
+
+.features-section__laptop-screen {
+  width: 100%;
+  height: 100%;
+  background: #1a1a1a;
+  border-radius: 4px;
+}
+
+/* Text boxes */
+.features-section__text-box {
+  background: rgba(26, 26, 26, 0.9);
+  border: 2px solid #4c85f5;
+  border-radius: 15px;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.features-section__text-box p {
+  font-family: 'Gilroy', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.features-section__footer {
+  background: rgba(26, 26, 26, 0.8);
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+.features-section__footer p {
+  font-family: 'Gilroy', sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .features-section__title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .features-section__phone {
+    width: 160px;
+    height: 320px;
+  }
+
+  .features-section__laptop {
+    width: 220px;
+    height: 140px;
+  }
+
+  .features-section__text-box p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
