@@ -1,0 +1,90 @@
+.problems-section {
+  padding: 40px 20px;
+  background-color: #000;
+  color: #fff;
+  position: relative;
+}
+
+.problems-section__question-icon {
+  width: 200px;
+  margin: 0 auto 30px;
+}
+
+.problems-section__question-icon img {
+  width: 100%;
+  height: auto;
+}
+
+.problems-section__title {
+  font-family: 'Lato', sans-serif;
+  font-size: 28px;
+  line-height: 1.3;
+  text-align: center;
+  margin: 0 0 50px;
+  padding: 0 10px;
+}
+
+.problems-section__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.problems-section__item {
+  display: flex;
+  gap: 15px;
+}
+
+.problems-section__item-line {
+  width: 4px;
+  flex-shrink: 0;
+  border-radius: 2px;
+}
+
+.problems-section__item--blue .problems-section__item-line {
+  background-color: #317af4;
+}
+
+.problems-section__item--green .problems-section__item-line {
+  background-color: #31f436;
+}
+
+.problems-section__item--yellow .problems-section__item-line {
+  background-color: #ffe92c;
+}
+
+.problems-section__item--orange .problems-section__item-line {
+  background-color: #ff6b1b;
+}
+
+.problems-section__item--red .problems-section__item-line {
+  background-color: #ff1b1b;
+}
+
+.problems-section__item-content h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  line-height: 1.2;
+}
+
+.problems-section__item-content p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.problems-section__arrow {
+  width: 120px;
+  margin: 0 auto;
+}
+
+.problems-section__arrow img {
+  width: 100%;
+  height: auto;
+}
