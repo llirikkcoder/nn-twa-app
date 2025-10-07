@@ -3,7 +3,6 @@ import './SolutionSection.css';
 
 import imgNexifyNeo from '@/assets/images/5bc35ade8504598ea93af4284eeaa0d5dadae7d1.png';
 import imgSetting from '@/assets/images/d60c7e84287f44cbd5ea872f5f79e3154acf6595.png';
-import imgCenter from '@/assets/images/2118baa69c3074d0fd97c798e009853339d2d4c7.png';
 import imgCircle from '@/assets/images/circle.png';
 
 export const SolutionSection: FC = () => {
