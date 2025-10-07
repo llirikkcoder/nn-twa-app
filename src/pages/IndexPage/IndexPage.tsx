@@ -6,6 +6,7 @@ import { ProblemsSection } from '@/components/ProblemsSection/ProblemsSection';
 import { FeaturesSection } from '@/components/FeaturesSection/FeaturesSection';
 import { SolutionSection } from '@/components/SolutionSection/SolutionSection';
 import { CasesSection } from '@/components/CasesSection/CasesSection';
+import { CTASection } from '@/components/CTASection/CTASection';
 
 export const IndexPage: FC = () => {
   return (
@@ -15,6 +16,7 @@ export const IndexPage: FC = () => {
       <FeaturesSection />
       <SolutionSection />
       <CasesSection />
+      <CTASection />
     </div>
   );
 };
