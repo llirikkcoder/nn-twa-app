@@ -1,9 +1,10 @@
 .features-section {
   width: 100%;
-  background-color: #000000;
+  background-color: #030303;
   padding: 40px 20px;
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 .features-section__container {
