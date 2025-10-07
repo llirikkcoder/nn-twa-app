@@ -67,7 +67,7 @@ if (import.meta.env.DEV) {
           ['signature', 'some-signature'],
           ['user', JSON.stringify({ id: 1, first_name: 'Vladislav' })],
         ]).toString()],
-        ['tgWebAppVersion', '8.4'],
+        ['tgWebAppVersion', '7.0'],
         ['tgWebAppPlatform', 'tdesktop'],
       ]),
     });

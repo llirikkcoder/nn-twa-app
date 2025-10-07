@@ -27,14 +27,14 @@ try {
     debug,
     eruda: debug && ['ios', 'android'].includes(platform),
     mockForMacOS: platform === 'macos',
-  })
-    .then(() => {
-      root.render(
-        <StrictMode>
-          <Root/>
-        </StrictMode>,
-      );
-    });
+  });
+
+  root.render(
+    <StrictMode>
+      <Root/>
+    </StrictMode>,
+  );
 } catch (e) {
+  console.error('Failed to initialize app:', e);
   root.render(<EnvUnsupported/>);
 }
