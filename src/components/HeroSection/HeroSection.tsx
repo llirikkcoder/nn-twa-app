@@ -24,7 +24,7 @@ export const HeroSection: FC = () => {
         <img alt="Chart" src={imgChart} />
       </div>
 
-      <div className="hero-section__button">
+      {/* <div className="hero-section__button">
         <a
           href="https://t.me/nn_for_you_bot"
           target="_blank"
@@ -33,7 +33,7 @@ export const HeroSection: FC = () => {
         >
           Перейти к боту
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };
