@@ -86,6 +86,46 @@ export const SolutionSection: FC = () => {
           </div>
         </div>
         <img src={imgCircle} alt="Ecosystem" className="solution-section__ecosystem-circle" />
+
+        <div className="solution-section__benefits">
+          <h2 className="solution-section__benefits-title">
+            Преимущества<br />для бизнеса
+          </h2>
+
+          <div className="solution-section__benefits-list">
+            <div className="solution-section__benefit">
+              <div className="solution-section__benefit-icon"></div>
+              <div className="solution-section__benefit-content">
+                <h3 className="solution-section__benefit-title">Масштаб:</h3>
+                <p className="solution-section__benefit-text">тысячи диалогов одновременно</p>
+              </div>
+            </div>
+
+            <div className="solution-section__benefit">
+              <div className="solution-section__benefit-icon"></div>
+              <div className="solution-section__benefit-content">
+                <h3 className="solution-section__benefit-title">Экономия:</h3>
+                <p className="solution-section__benefit-text">меньше людей → ниже расходы</p>
+              </div>
+            </div>
+
+            <div className="solution-section__benefit">
+              <div className="solution-section__benefit-icon"></div>
+              <div className="solution-section__benefit-content">
+                <h3 className="solution-section__benefit-title">AI продаёт</h3>
+                <p className="solution-section__benefit-text">без ошибок и перерывов</p>
+              </div>
+            </div>
+
+            <div className="solution-section__benefit">
+              <div className="solution-section__benefit-icon"></div>
+              <div className="solution-section__benefit-content">
+                <h3 className="solution-section__benefit-title">Рост выручки</h3>
+                <p className="solution-section__benefit-text">за счёт увеличения охвата</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
