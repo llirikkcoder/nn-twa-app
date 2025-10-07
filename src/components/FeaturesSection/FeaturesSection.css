@@ -3,6 +3,13 @@
   background-color: #000000;
   padding: 40px 20px;
   display: flex;
+  justify-content: center;
+}
+
+.features-section__container {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
   flex-direction: column;
   gap: 40px;
 }
@@ -40,6 +47,13 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
+}
+
+.features-section__phone-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
 }
 
 /* Audience section */
