@@ -14,6 +14,10 @@
   object-fit: contain;
 }
 
+.hero-section__button {
+  margin-top: 20px;
+}
+
 .hero-section__telegram {
   position: absolute;
   left: 214px;
