@@ -10,7 +10,7 @@ import imgArrow from '@/assets/images/15e33cfecbfe30ab5cb67e2ee7f16ce4db5a99fb.p
 
 export const CTASection: FC = () => {
   const handleBotClick = () => {
-    window.open('https://t.me/nn_for_you_bot', '_blank');
+    window.open('https://t.me/nn_agent_sokolov', '_blank');
   };
 
   return (
