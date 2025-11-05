@@ -1,20 +1,20 @@
 import type { FC } from 'react';
 import './ProblemsSection.css';
 
-import imgQuestion from '@/assets/images/for_problems_section.png';
+// import imgQuestion from '@/assets/images/for_problems_section.png';
 import imgArrow from '@/assets/images/bb384dde93bf54ce43a8a44ddd8a75695765b098.png';
 
 export const ProblemsSection: FC = () => {
   return (
     <div className="problems-section">
 
-
+      {/* 
       <h2 className="problems-section__title">
         Сколько клиентов и денег вы теряете сегодня из-за этих проблем?
       </h2>
       <div className="problems-section__question-icon">
         <img alt="?" src={imgQuestion} />
-      </div>
+      </div> */}
       <div className="problems-section__list">
         <div className="problems-section__item problems-section__item--blue">
           <div className="problems-section__item-line"></div>
